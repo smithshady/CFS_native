@@ -1,0 +1,36 @@
+format_version: v1.0
+type: UniqueComponent
+attributes: {id: usart2}
+children:
+- type: Symbols
+  children:
+  - type: Integer
+    attributes: {id: BAUD_RATE}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '50000'}
+  - type: Integer
+    attributes: {id: BRG_VALUE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: usart2, value: '93'}
+  - type: Integer
+    attributes: {id: USART_CLOCK_FREQ}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: usart2, value: '75000000'}
+  - type: Integer
+    attributes: {id: USART_SPI_BRG_VALUE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: usart2, value: '150'}
+- type: ElementPosition
+  attributes: {x: '137', y: '117', id: usart2}

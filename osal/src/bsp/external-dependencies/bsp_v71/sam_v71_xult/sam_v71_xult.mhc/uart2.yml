@@ -1,0 +1,85 @@
+format_version: v1.0
+type: UniqueComponent
+attributes: {id: uart2}
+children:
+- type: Symbols
+  children:
+  - type: Integer
+    attributes: {id: BRG_VALUE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: uart2, value: '40'}
+  - type: Integer
+    attributes: {id: UART_CLOCK_FREQ}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: uart2, value: '75000000'}
+  - type: Boolean
+    attributes: {id: UART_INTERRUPT_MODE_ENABLE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: uart2, value: 'true'}
+  - type: Combo
+    attributes: {id: UART_MR_PAR}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: ODD}
+  - type: Comment
+    attributes: {id: UART_NVIC_ENABLE_COMMENT}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'false'}
+  - type: KeyValueSet
+    attributes: {id: UART_OPERATING_MODE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: uart2, value: '1'}
+  - type: Boolean
+    attributes: {id: UART_RING_BUFFER_ENABLE}
+    children:
+    - type: Attributes
+      children:
+      - type: String
+        attributes: {id: label}
+        children:
+        - {type: Value, value: '---'}
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: uart2, value: 'false'}
+  - type: Boolean
+    attributes: {id: UART_RING_BUFFER_MODE_ENABLE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: uart2, value: 'false'}
+  - type: Boolean
+    attributes: {id: USART_INTERRUPT_MODE}
+    children:
+    - type: Attributes
+      children:
+      - type: String
+        attributes: {id: label}
+        children:
+        - {type: Value, value: '---'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+- type: ElementPosition
+  attributes: {x: '253', y: '372', id: uart2}

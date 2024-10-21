@@ -1,0 +1,37 @@
+#
+# file modes:
+#    OS_FILESTAT_MODE_EXEC  = 0x00001,
+#    OS_FILESTAT_MODE_WRITE = 0x00002,
+#    OS_FILESTAT_MODE_READ  = 0x00004,
+#    OS_FILESTAT_MODE_DIR   = 0x10000
+#
+# note: a list of 20 files is sent, but only 6 will show in the GUI for convenience
+#
+Dir name,          16,  64,  64s, Str, NULL,        NULL,        NULL,       NULL
+Total files,       80,   4,    I, Dec, NULL,        NULL,        NULL,       NULL
+Packet files,      84,   4,    I, Dec, NULL,        NULL,        NULL,       NULL
+First file idx,    88,   4,    I, Dec, NULL,        NULL,        NULL,       NULL
+File1 name,        92,  64,  64s, Str, NULL,        NULL,        NULL,       NULL
+File1 size,       156,   4,    I, Dec, NULL,        NULL,        NULL,       NULL
+File1 mod time,   160,   4,    I, Dec, NULL,        NULL,        NULL,       NULL
+File1 mode,       164,   4,    I, Dec, NULL,        NULL,        NULL,       NULL
+File2 name,       168,  64,  64s, Str, NULL,        NULL,        NULL,       NULL
+File2 size,       232,   4,    I, Dec, NULL,        NULL,        NULL,       NULL
+File2 mod time,   236,   4,    I, Dec, NULL,        NULL,        NULL,       NULL
+File2 mode,       240,   4,    I, Dec, NULL,        NULL,        NULL,       NULL
+File3 name,       244,  64,  64s, Str, NULL,        NULL,        NULL,       NULL
+File3 size,       308,   4,    I, Dec, NULL,        NULL,        NULL,       NULL
+File3 mod time,   312,   4,    I, Dec, NULL,        NULL,        NULL,       NULL
+File3 mode,       316,   4,    I, Dec, NULL,        NULL,        NULL,       NULL
+File4 name,       320,  64,  64s, Str, NULL,        NULL,        NULL,       NULL
+File4 size,       384,   4,    I, Dec, NULL,        NULL,        NULL,       NULL
+File4 mod time,   388,   4,    I, Dec, NULL,        NULL,        NULL,       NULL
+File4 mode,       392,   4,    I, Dec, NULL,        NULL,        NULL,       NULL
+File5 name,       396,  64,  64s, Str, NULL,        NULL,        NULL,       NULL
+File5 size,       460,   4,    I, Dec, NULL,        NULL,        NULL,       NULL
+File5 mod time,   464,   4,    I, Dec, NULL,        NULL,        NULL,       NULL
+File5 mode,       468,   4,    I, Dec, NULL,        NULL,        NULL,       NULL
+File6 name,       472,  64,  64s, Str, NULL,        NULL,        NULL,       NULL
+File6 size,       536,   4,    I, Dec, NULL,        NULL,        NULL,       NULL
+File6 mod time,   540,   4,    I, Dec, NULL,        NULL,        NULL,       NULL
+File6 mode,       544,   4,    I, Dec, NULL,        NULL,        NULL,       NULL

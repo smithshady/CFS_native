@@ -1,0 +1,12 @@
+[submodule "src/os/external-dependencies/FreeRTOS-Kernel"]
+	path = src/os/external-dependencies/FreeRTOS-Kernel
+	url = ssh://git@bitbucket.lunaroutpost.com:7999/rov/freertos_kernel.git
+[submodule "src/os/external-dependencies/freeRTOS_plus_tcp_lib"]
+	path = src/os/external-dependencies/freeRTOS_plus_tcp_lib
+	url = ssh://git@bitbucket.lunaroutpost.com:7999/rov/freertos_tcp.git
+[submodule "src/os/external-dependencies/littlefs"]
+	path = src/os/external-dependencies/littlefs
+	url = ssh://git@bitbucket.lunaroutpost.com:7999/rov/littlefs.git
+[submodule "src/bsp/external-dependencies/bsp_v71"]
+	path = src/bsp/external-dependencies/bsp_v71
+	url = ssh://git@bitbucket.lunaroutpost.com:7999/rov/bsp_v71.git

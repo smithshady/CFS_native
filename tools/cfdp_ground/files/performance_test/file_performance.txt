@@ -1,0 +1,120 @@
+===================
+atsam_test_tbl1.tbl:
+===================
+downlink time: 0.000201s
+filesize: 120B | 0.12KB | 3 PDUs
+downlink speed: 597763.04B/s | 583.75KB/s
+===================
+atsam_test_tbl1.tbl:
+===================
+downlink time: 0.000801s
+filesize: 120B | 0.12KB | 3 PDUs
+downlink speed: 149885.79B/s | 146.37KB/s
+===================
+atsam_test_tbl1.tbl:
+===================
+downlink time: 0.000705s
+filesize: 120B | 0.12KB | 3 PDUs
+downlink speed: 170154.32B/s | 166.17KB/s
+============
+cfe_test.log:
+============
+downlink time: 204.101153s
+filesize: 245488B | 239.73KB | 514 PDUs
+downlink speed: 1202.78B/s | 1.17KB/s
+=============
+cfe_erlog.log:
+=============
+downlink time: 6.004789s
+filesize: 7904B | 7.72KB | 19 PDUs
+downlink speed: 1316.28B/s | 1.29KB/s
+=================
+cfe_es_syslog.log:
+=================
+downlink time: 2.002405s
+filesize: 3124B | 3.05KB | 9 PDUs
+downlink speed: 1560.12B/s | 1.52KB/s
+===================
+cfe_es_taskinfo.log:
+===================
+downlink time: 2.001307s
+filesize: 1504B | 1.47KB | 6 PDUs
+downlink speed: 751.51B/s | 0.73KB/s
+===================
+cfe_es_app_info.log:
+===================
+downlink time: 4.001668s
+filesize: 4112B | 4.02KB | 11 PDUs
+downlink speed: 1027.57B/s | 1.00KB/s
+===================
+atsam_test_tbl1.tbl:
+===================
+downlink time: 0.001127s
+filesize: 120B | 0.12KB | 3 PDUs
+downlink speed: 106431.91B/s | 103.94KB/s
+===================
+atsam_test_tbl1.tbl:
+===================
+downlink time: 0.001055s
+filesize: 120B | 0.12KB | 3 PDUs
+downlink speed: 113692.45B/s | 111.03KB/s
+===================
+cfe_es_taskinfo.log:
+===================
+downlink time: 2.000785s
+filesize: 1504B | 1.47KB | 6 PDUs
+downlink speed: 751.70B/s | 0.73KB/s
+=============
+cfe_erlog.log:
+=============
+downlink time: 6.001899s
+filesize: 7904B | 7.72KB | 19 PDUs
+downlink speed: 1316.92B/s | 1.29KB/s
+===================
+cfe_es_app_info.log:
+===================
+downlink time: 4.001339s
+filesize: 4112B | 4.02KB | 11 PDUs
+downlink speed: 1027.66B/s | 1.00KB/s
+===================
+cfe_es_taskinfo.log:
+===================
+downlink time: 2.001715s
+filesize: 1504B | 1.47KB | 6 PDUs
+downlink speed: 751.36B/s | 0.73KB/s
+=================
+cfe_es_syslog.log:
+=================
+downlink time: 2.002985s
+filesize: 3103B | 3.03KB | 9 PDUs
+downlink speed: 1549.19B/s | 1.51KB/s
+=============
+cfe_erlog.log:
+=============
+downlink time: 6.005149s
+filesize: 7904B | 7.72KB | 19 PDUs
+downlink speed: 1316.20B/s | 1.29KB/s
+============
+cfe_test.log:
+============
+downlink time: 210.112281s
+filesize: 252310B | 246.40KB | 528 PDUs
+downlink speed: 1200.83B/s | 1.17KB/s
+===============
+cfe_es_perf.dat:
+===============
+downlink time: 100.056628s
+filesize: 120140B | 117.32KB | 253 PDUs
+downlink speed: 1200.72B/s | 1.17KB/s
+=======
+rts.tbl:
+=======
+downlink time: 2.000353s
+filesize: 2116B | 2.07KB | 7 PDUs
+downlink speed: 1057.81B/s | 1.03KB/s
+================
+test_receive.txt:
+================
+downlink time: 0.000911s
+filesize: 21B | 0.02KB | 3 PDUs
+downlink speed: 23051.66B/s | 22.51KB/s

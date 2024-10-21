@@ -1,0 +1,5 @@
+CODEABI_0.2.2
+{ 
+    global: *bplib_*; 
+    local: *; 
+};

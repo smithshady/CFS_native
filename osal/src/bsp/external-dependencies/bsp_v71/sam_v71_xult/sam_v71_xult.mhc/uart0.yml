@@ -1,0 +1,119 @@
+format_version: v1.0
+type: UniqueComponent
+attributes: {id: uart0}
+children:
+- type: Symbols
+  children:
+  - type: Integer
+    attributes: {id: BRG_VALUE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: uart0, value: '40'}
+  - type: Integer
+    attributes: {id: UART_CLOCK_FREQ}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: uart0, value: '75000000'}
+  - type: File
+    attributes: {id: UART_HEADER1}
+    children:
+    - type: Attributes
+      children:
+      - type: String
+        attributes: {id: source}
+        children:
+        - {type: Value, value: ../peripheral/uart_6418/templates/plib_uart.h.ftl}
+  - type: Boolean
+    attributes: {id: UART_INTERRUPT_MODE_ENABLE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: uart0, value: 'true'}
+  - type: Boolean
+    attributes: {id: UART_MR_FILTER}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'false'}
+  - type: Comment
+    attributes: {id: UART_NVIC_ENABLE_COMMENT}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'false'}
+  - type: KeyValueSet
+    attributes: {id: UART_OPERATING_MODE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: uart0, value: '1'}
+  - type: Boolean
+    attributes: {id: UART_RING_BUFFER_ENABLE}
+    children:
+    - type: Attributes
+      children:
+      - type: String
+        attributes: {id: label}
+        children:
+        - {type: Value, value: '---'}
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: uart0, value: 'false'}
+      - type: User
+        attributes: {value: 'false'}
+  - type: Boolean
+    attributes: {id: UART_RING_BUFFER_MODE_ENABLE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: uart0, value: 'false'}
+  - type: Integer
+    attributes: {id: UART_RX_RING_BUFFER_SIZE}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '134'}
+  - type: File
+    attributes: {id: UART_SOURCE1}
+    children:
+    - type: Attributes
+      children:
+      - type: String
+        attributes: {id: source}
+        children:
+        - {type: Value, value: ../peripheral/uart_6418/templates/plib_uart.c.ftl}
+  - type: Integer
+    attributes: {id: UART_TX_RING_BUFFER_SIZE}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '16'}
+  - type: Boolean
+    attributes: {id: USART_INTERRUPT_MODE}
+    children:
+    - type: Attributes
+      children:
+      - type: String
+        attributes: {id: label}
+        children:
+        - {type: Value, value: '---'}
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+- type: ElementPosition
+  attributes: {x: '3', y: '372', id: uart0}

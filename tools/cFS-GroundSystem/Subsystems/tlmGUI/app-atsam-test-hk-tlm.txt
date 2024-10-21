@@ -1,0 +1,4 @@
+Command Counter,               16,  1,  B, Dec, NULL,        NULL,        NULL,       NULL
+Error Counter,                 17,  1,  B, Dec, NULL,        NULL,        NULL,       NULL  
+Table Value 1,                 18,  2,  H, Dec, NULL,        NULL,        NULL,       NULL  
+Table Value 2,                 20,  2,  H, Dec, NULL,        NULL,        NULL,       NULL  

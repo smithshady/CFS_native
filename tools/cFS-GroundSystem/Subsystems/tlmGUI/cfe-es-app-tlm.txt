@@ -1,0 +1,20 @@
+Resource ID,          16,  4,  I, Dec, NULL,        NULL,        NULL,       NULL
+App Type,             20,  4,  I, Dec, NULL,        NULL,        NULL,       NULL
+Name,                 24, 20, 20s, Str, NULL,        NULL,        NULL,       NULL
+EntryPoint,           44, 20, 20s, Str, NULL,        NULL,        NULL,       NULL
+FileName,             64, 64, 64s, Str, NULL,        NULL,        NULL,       NULL
+StackSize,            128,  4,  I, Dec, NULL,        NULL,        NULL,       NULL
+AddressesAreValid,    132,  4,  I, Dec, NULL,        NULL,        NULL,       NULL
+CodeAddress,          136,  4, 2H, Hex, NULL,        NULL,        NULL,       NULL
+CodeSize,             140,  4,  I, Dec, NULL,        NULL,        NULL,       NULL
+DataAddress,          144,  4, 2H, Hex, NULL,        NULL,        NULL,       NULL
+DataSize,             148,  4,  I, Dec, NULL,        NULL,        NULL,       NULL
+BSSAddress,           152,  4, 2H, Hex, NULL,        NULL,        NULL,       NULL
+BSSSize,              156,  4,  I, Dec, NULL,        NULL,        NULL,       NULL
+StartAddress,         160,  4, 2H, Hex, NULL,        NULL,        NULL,       NULL
+ExceptionAction,      164,  2,  H, Dec, NULL,        NULL,        NULL,       NULL
+Priority,             166,  2,  H, Dec, NULL,        NULL,        NULL,       NULL
+MainTaskId,           168,  4,  I, Dec, NULL,        NULL,        NULL,       NULL
+ExecutionCounter,     172,  4,  I, Dec, NULL,        NULL,        NULL,       NULL
+MainTaskName,         176,  20, 20s, Str, NULL,        NULL,        NULL,       NULL
+NumOfChildTasks,      196,  4,  I, Dec, NULL,        NULL,        NULL,       NULL

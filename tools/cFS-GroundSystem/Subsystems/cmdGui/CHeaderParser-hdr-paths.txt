@@ -1,0 +1,28 @@
+# filename: CHeaderParser-hdr-paths.txt
+# description: 
+#	(For use with CHeaderParser.py)
+# 	This file contains the filepaths to the header files which contain command
+#	code definitions and command structures for your specified cFS application.
+#	For easiest use of this program, it is best to only add header files for 
+#	one application at a time (simply comment the others out with '#').
+#
+#	Important Note:
+#	CHeaderParser.py ignores any lines that start with '#' and reads in every 
+#	other line as a filepath to a header file.
+#
+#   This program does support relative paths but if the program cannot 
+#	find your header files, try using absolute paths.
+#
+#../../../../apps/atsam_test/config/default_atsam_test_msgdefs.h
+#../../../../apps/atsam_test/config/default_atsam_test_msgstruct.h
+#../../../../apps/atsam_test/config/default_atsam_test_fcncodes.h
+#
+#../../../../apps/fm/fsw/inc/fm_msg.h
+#
+#../../../../apps/cf/fsw/inc/cf_msg.h
+#
+#../../../../cfe/modules/es/config/default_cfe_es_fcncodes.h
+#../../../../cfe/modules/es/config/default_cfe_es_msgdefs.h15
+#
+../../../../apps/sc/fsw/inc/sc_msgdefs.h
+../../../../apps/sc/fsw/inc/sc_msg.h

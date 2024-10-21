@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "atsam_test_msgids.h": "c",
+        "cf_msgids.h": "c",
+        "cfe_es_generic_pool.h": "c",
+        "sc_mission_cfg.h": "c",
+        "cf_platform_cfg.h": "c",
+        "cf_extern_typedefs.h": "c",
+        "cfe_es_msg.h": "c"
+    }
+}

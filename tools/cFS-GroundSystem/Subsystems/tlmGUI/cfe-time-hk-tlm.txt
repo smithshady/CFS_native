@@ -1,0 +1,12 @@
+#
+Command Counter,       16,  1,  B, Dec, NULL,        NULL,        NULL,       NULL
+Error Counter,         17,  1,  B, Dec, NULL,        NULL,        NULL,       NULL  
+ClockStateFlags,       18,  2,  H, Hex, NULL,        NULL,        NULL,       NULL  
+ClockStateAPI,         20,  2,  h, Dec, NULL,        NULL,        NULL,       NULL
+LeapSeconds,  	       22,  2,  h, Dec, NULL,        NULL,        NULL,       NULL
+SecondsMET,            24,  4,  I, Dec, NULL,        NULL,        NULL,       NULL
+SubsecsMET,            28,  4,  I, Dec, NULL,        NULL,        NULL,       NULL
+SecondsSTCF,           32,  4,  I, Dec, NULL,        NULL,        NULL,       NULL
+SubsecsSTCF,           36,  4,  I, Dec, NULL,        NULL,        NULL,       NULL
+Sever_1HzAdj_s,        40,  4,  I, Dec, NULL,        NULL,        NULL,       NULL
+Sever_1HzAdj_ss,       44,  4,  I, Dec, NULL,        NULL,        NULL,       NULL

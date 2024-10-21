@@ -1,0 +1,129 @@
+ATSAM Test:
+cmd:            0x1887
+hk req:         0x1894
+sbn test:       0x1893
+hk tlm:         0x0894
+
+CCSDS File Delivery Protocol (cf):
+cmd:            0x18B3
+hk req:         0x18B4
+wakeup:         0x18B5
+hk tlm:         0x08B0
+eot tlm:        0x08B3
+
+Command Ingest Lab (ci_lab):
+cmd:            0x1884
+hk req:         0x1885
+read uplink(?): 0x1886
+hk tlm:         0x0884
+
+Checksum app (cs):
+cmd:            0x189F
+hk req:         0x18A0
+cycle:          0x18A1
+hk tlm:         0x08A4
+
+Data store (ds):
+cmd:            0x18BB
+hk req:         0x18BC
+hk tlm:         0x08B8
+diag tlm:       0x08B9
+comp tlm:       0x08BA
+
+File manager (fm):
+cmd:            0x188C
+hk req:         0x188D
+hk tlm:         0x088A
+file info tlm:  0x088B
+dir list tlm:   0x088C
+open files tlm: 0x088D
+free spce tlm:  0x088E
+
+Housekeeping (hk):
+cmd:            0x189A
+send hk:        0x189B
+send comb pkt:  0x189C
+hk tlm:         0x089B
+comb pkt 1:     0x089C
+comb pkt 2:     0x089D
+comb pkt 3:     0x089E
+comb pkt 4:     0x089F
+
+Health and Safety (hs):
+#define HS_CMD_MID     0x18AE /**< \brief Msg ID for cmds to HS                */
+#define HS_SEND_HK_MID 0x18AF /**< \brief Msg ID to request HS housekeeping    */
+#define HS_WAKEUP_MID  0x18B0 /**< \brief Msg ID to wake up HS                 */
+#define HS_HK_TLM_MID 0x08AD /**< \brief HS Housekeeping Telemetry            */
+
+Limit checker (lc):
+#define LC_CMD_MID       0x18A4 /**< \brief Msg ID for cmds to LC                */
+#define LC_SEND_HK_MID   0x18A5 /**< \brief Msg ID to request LC housekeeping    */
+#define LC_SAMPLE_AP_MID 0x18A6 /**< \brief Msg ID to request actionpoint sample */
+#define LC_HK_TLM_MID 0x08A7 /**< \brief LC Housekeeping Telemetry */
+
+Memory dwell (md):
+#define MD_CMD_MID     0x1890 /**< \brief Message Id for Memory Dwell's ground command */
+#define MD_SEND_HK_MID 0x1891 /**< \brief Message Id for Memory Dwell's 'Send Housekeeping' message */
+#define MD_WAKEUP_MID  0x1892 /**< \brief Message Id for Memory Dwell's wakeup message */
+#define MD_HK_TLM_MID         0x0890 /**< \brief Message Id for Memory Dwell's housekeeping pkt */
+#define MD_DWELL_PKT_MID_BASE 0x0891 /**< \brief Base Message Id for Memory Dwell's dwell packets. */
+
+Memory manager (mm):
+#define MM_CMD_MID     0x1888 /**< \brief Msg ID for cmds to mm     */
+#define MM_SEND_HK_MID 0x1889 /**< \brief Msg ID to request mm HK   */
+#define MM_HK_TLM_MID 0x0887 /**< \brief MM Housekeeping Telemetry */
+
+Software bus network (sbn):
+#define SBN_CMD_MID 0x18FA
+#define SBN_TLM_MID 0x08FC
+
+Stored command (sc):
+#define SC_CMD_MID        (0x18A9) /**< \brief Msg ID for cmds to SC   */
+#define SC_SEND_HK_MID    (0x18AA) /**< \brief Msg ID to request SC HK */
+#define SC_1HZ_WAKEUP_MID (0x18AB) /**< \brief Msg ID to receive the 1Hz */
+#define SC_HK_TLM_MID (0x08AA) /**< \brief Msg ID to send telemtry down on */
+
+Telemetry output lab (to_lab):
+#define CFE_MISSION_TO_LAB_CMD_TOPICID        0x1880
+#define CFE_MISSION_TO_LAB_SEND_HK_TOPICID    0x1881
+#define CFE_MISSION_TO_LAB_HK_TLM_TOPICID     0x0880
+#define CFE_MISSION_TO_LAB_DATA_TYPES_TOPICID 0x0881
+
+CFE ES
+#define CFE_ES_CMD_MID     CFE_PLATFORM_CMD_TOPICID_TO_MIDV(CFE_MISSION_ES_CMD_TOPICID)     /* 0x1806 */
+#define CFE_ES_SEND_HK_MID CFE_PLATFORM_CMD_TOPICID_TO_MIDV(CFE_MISSION_ES_SEND_HK_TOPICID) /* 0x1808 */
+#define CFE_ES_HK_TLM_MID       CFE_PLATFORM_TLM_TOPICID_TO_MIDV(CFE_MISSION_ES_HK_TLM_TOPICID)       /* 0x0800 */
+#define CFE_ES_APP_TLM_MID      CFE_PLATFORM_TLM_TOPICID_TO_MIDV(CFE_MISSION_ES_APP_TLM_TOPICID)      /* 0x080B */
+#define CFE_ES_MEMSTATS_TLM_MID CFE_PLATFORM_TLM_TOPICID_TO_MIDV(CFE_MISSION_ES_MEMSTATS_TLM_TOPICID) /* 0x0810 */
+
+CFE SB
+#define CFE_SB_CMD_MID          CFE_PLATFORM_CMD_TOPICID_TO_MIDV(CFE_MISSION_SB_CMD_TOPICID)          /* 0x1803 */
+#define CFE_SB_SEND_HK_MID      CFE_PLATFORM_CMD_TOPICID_TO_MIDV(CFE_MISSION_SB_SEND_HK_TOPICID)      /* 0x180B */
+#define CFE_SB_SUB_RPT_CTRL_MID CFE_PLATFORM_CMD_TOPICID_TO_MIDV(CFE_MISSION_SB_SUB_RPT_CTRL_TOPICID) /* 0x180E */
+#define CFE_SB_HK_TLM_MID      CFE_PLATFORM_TLM_TOPICID_TO_MIDV(CFE_MISSION_SB_HK_TLM_TOPICID)      /* 0x0803 */
+#define CFE_SB_STATS_TLM_MID   CFE_PLATFORM_TLM_TOPICID_TO_MIDV(CFE_MISSION_SB_STATS_TLM_TOPICID)   /* 0x080A */
+#define CFE_SB_ALLSUBS_TLM_MID CFE_PLATFORM_TLM_TOPICID_TO_MIDV(CFE_MISSION_SB_ALLSUBS_TLM_TOPICID) /* 0x080D */
+#define CFE_SB_ONESUB_TLM_MID  CFE_PLATFORM_TLM_TOPICID_TO_MIDV(CFE_MISSION_SB_ONESUB_TLM_TOPICID)  /* 0x080E */
+
+CFE TBL
+#define CFE_TBL_CMD_MID     CFE_PLATFORM_CMD_TOPICID_TO_MIDV(CFE_MISSION_TBL_CMD_TOPICID)     /* 0x1804 */
+#define CFE_TBL_SEND_HK_MID CFE_PLATFORM_CMD_TOPICID_TO_MIDV(CFE_MISSION_TBL_SEND_HK_TOPICID) /* 0x180C */
+#define CFE_TBL_HK_TLM_MID  CFE_PLATFORM_TLM_TOPICID_TO_MIDV(CFE_MISSION_TBL_HK_TLM_TOPICID)  /* 0x0804 */
+#define CFE_TBL_REG_TLM_MID CFE_PLATFORM_TLM_TOPICID_TO_MIDV(CFE_MISSION_TBL_REG_TLM_TOPICID) /* 0x080C */
+
+CFE TIME
+#define CFE_TIME_CMD_MID       CFE_PLATFORM_CMD_TOPICID_TO_MIDV(CFE_MISSION_TIME_CMD_TOPICID)       /* 0x1805 */
+#define CFE_TIME_SEND_HK_MID   CFE_PLATFORM_CMD_TOPICID_TO_MIDV(CFE_MISSION_TIME_SEND_HK_TOPICID)   /* 0x180D */
+#define CFE_TIME_TONE_CMD_MID  CFE_PLATFORM_CMD_TOPICID_TO_MIDV(CFE_MISSION_TIME_TONE_CMD_TOPICID)  /* 0x1810 */
+#define CFE_TIME_ONEHZ_CMD_MID CFE_PLATFORM_CMD_TOPICID_TO_MIDV(CFE_MISSION_TIME_ONEHZ_CMD_TOPICID) /* 0x1811 */
+#define CFE_TIME_DATA_CMD_MID CFE_GLOBAL_CMD_TOPICID_TO_MIDV(CFE_MISSION_TIME_DATA_CMD_TOPICID) /* 0x1860 */
+#define CFE_TIME_SEND_CMD_MID CFE_GLOBAL_CMD_TOPICID_TO_MIDV(CFE_MISSION_TIME_SEND_CMD_TOPICID) /* 0x1862 */
+#define CFE_TIME_HK_TLM_MID   CFE_PLATFORM_TLM_TOPICID_TO_MIDV(CFE_MISSION_TIME_HK_TLM_TOPICID)   /* 0x0805 */
+#define CFE_TIME_DIAG_TLM_MID CFE_PLATFORM_TLM_TOPICID_TO_MIDV(CFE_MISSION_TIME_DIAG_TLM_TOPICID) /* 0x0806 */
+
+CFE EVS
+#define CFE_EVS_CMD_MID     CFE_PLATFORM_CMD_TOPICID_TO_MIDV(CFE_MISSION_EVS_CMD_TOPICID)     /* 0x1801 */
+#define CFE_EVS_SEND_HK_MID CFE_PLATFORM_CMD_TOPICID_TO_MIDV(CFE_MISSION_EVS_SEND_HK_TOPICID) /* 0x1809 */
+#define CFE_EVS_HK_TLM_MID CFE_PLATFORM_TLM_TOPICID_TO_MIDV(CFE_MISSION_EVS_HK_TLM_TOPICID) /* 0x0801 */
+#define CFE_EVS_LONG_EVENT_MSG_MID CFE_PLATFORM_TLM_TOPICID_TO_MIDV(CFE_MISSION_EVS_LONG_EVENT_MSG_TOPICID) /* 0x0808 */
+#define CFE_EVS_SHORT_EVENT_MSG_MID CFE_PLATFORM_TLM_TOPICID_TO_MIDV(CFE_MISSION_EVS_SHORT_EVENT_MSG_TOPICID) /* 0x0809 */

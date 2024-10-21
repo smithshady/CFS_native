@@ -1,0 +1,26 @@
+#
+# note: there are a max of 17 pool buckets, but only 6 displayed in the GUI for convenience
+#
+PoolHandle,                    16,  4,  I, Dec, NULL,        NULL,        NULL,       NULL
+PoolSize,                      20,  4,  I, Dec, NULL,        NULL,        NULL,       NULL
+NumBlocksRequested,            24,  4,  I, Dec, NULL,        NULL,        NULL,       NULL
+CheckErrCtr,                   28,  4,  I, Dec, NULL,        NULL,        NULL,       NULL
+NumFreeBytes,                  32,  4,  I, Dec, NULL,        NULL,        NULL,       NULL
+Block1_Size,                   36,  4,  I, Dec, NULL,        NULL,        NULL,       NULL
+Block1_NumCreated,             40,  4,  I, Dec, NULL,        NULL,        NULL,       NULL
+Block1_NumFree,                44,  4,  I, Dec, NULL,        NULL,        NULL,       NULL
+Block2_Size,                   48,  4,  I, Dec, NULL,        NULL,        NULL,       NULL
+Block2_NumCreated,             52,  4,  I, Dec, NULL,        NULL,        NULL,       NULL
+Block2_NumFree,                56,  4,  I, Dec, NULL,        NULL,        NULL,       NULL
+Block3_Size,                   60,  4,  I, Dec, NULL,        NULL,        NULL,       NULL
+Block3_NumCreated,             64,  4,  I, Dec, NULL,        NULL,        NULL,       NULL
+Block3_NumFree,                68,  4,  I, Dec, NULL,        NULL,        NULL,       NULL
+Block4_Size,                   72,  4,  I, Dec, NULL,        NULL,        NULL,       NULL
+Block4_NumCreated,             76,  4,  I, Dec, NULL,        NULL,        NULL,       NULL
+Block4_NumFree,                80,  4,  I, Dec, NULL,        NULL,        NULL,       NULL
+Block5_Size,                   84,  4,  I, Dec, NULL,        NULL,        NULL,       NULL
+Block5_NumCreated,             88,  4,  I, Dec, NULL,        NULL,        NULL,       NULL
+Block5_NumFree,                92,  4,  I, Dec, NULL,        NULL,        NULL,       NULL
+Block6_Size,                   96,  4,  I, Dec, NULL,        NULL,        NULL,       NULL
+Block6_NumCreated,            100,  4,  I, Dec, NULL,        NULL,        NULL,       NULL
+Block6_NumFree,               104,  4,  I, Dec, NULL,        NULL,        NULL,       NULL
